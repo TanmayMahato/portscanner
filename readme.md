@@ -1,6 +1,6 @@
 # Port Scanner
 **Demostration Video :** [Youtube Link](https://www.youtube.com/watch?v=TCB7zSeHnH8)
-A personal project to scan open ports on a given IP/Domain address using TCP connect scan.
+- A personal project to scan open ports on a given IP/Domain address using TCP connect scan.
 
 ## Overview
 Port Scanner is a simple web application that takes an IP/Domain address, start port, and end port as input and scans for open ports using TCP connect scan. The application displays a list of open ports found during the scan.
