@@ -52,7 +52,7 @@ func data() {
 		fmt.Println("", v.RemoteAddr().String(), " ", v.RemoteAddr().Network(), " ")
 		var o1 output
 		t := time.Now()
-		ftime := t.Format("2024-01-01 12:12:12.000000000")
+		ftime := t.Format("2006-01-02 , 15:04:05.000000000")
 		o1.Time = ftime
 		o1.IP = v.RemoteAddr().String()
 
